@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header id="header"></header>
+    <nav id="menu">
+        <a href="#top">Trang chủ</a>
+        <a href="#listtruyenchu">Truyện chữ</a>
+        <a href="#listtruyenhinh">Truyện hình</a>
+        <a href="#listtacgia">Tác giả</a>
+    </nav>
+    <main>
+        <section id="listtruyenchu">
+            <h2>Truyện chữ</h2>
+            <div id="data"></div>
+        </section>
+        
+        <section id="listtruyenhinh">
+            <h2>Truyện hình</h2>
+            <div id="data"></div>
+        </section>
+        <section id="listtacgia">
+            <h2>Các tác giả</h2>
+            <div id="data"></div>
+        </section>
+    </main> 
+    <footer>Họ tên sinh viên: Nguyễn Thanh Tú ps27908</footer>
+</body>
+</html>
+<script type="module">
+    import { showlisttruyenchu, showlisttruyenhinh, showlisttacgia } from './js/app.js';
+    document.querySelector("#listtruyenchu #data").innerHTML = showlisttruyenchu();
+    document.querySelector("#listtruyenhinh #data").innerHTML = showlisttruyenhinh();
+    document.querySelector("#listtacgia #data").innerHTML = await showlisttacgia();
+</script>

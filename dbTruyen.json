@@ -1,0 +1,46 @@
+{
+    "theloai":[ 
+      {
+        "id":"1", 
+        "ten_the_loai":"Hành động - phiêu lưu", 
+        "hinh":"https://bizweb.dktcdn.net/thumb/medium/100/392/056/products/9781409564966-illustrated-originals-the-jungle-book.jpg?v=1592939331893"} ,
+      {
+        "id":"2", 
+        "ten_the_loai":"Tình cảm", 
+        "hinh":"https://popsimg.akamaized.net/api/v2/containers/file2/cms_thumbnails/yeuthemlannua_thumb_640x960-055c3b7136d4-1680236087915-yDl1VrBe.jpg?v=0&maxW=320&format=jpg"} ,
+    {
+        "id":"3", 
+        "ten_the_loai":"Trinh thám", 
+        "hinh":"https://product.hstatic.net/200000343865/product/102_359d8e4410484914b3ccee5831926b14_master.jpg"},
+    {
+        "id":"4", 
+        "ten_the_loai":"Siêu nhiên", 
+        "hinh":"https://m.media-amazon.com/images/M/MV5BYzU3NDM4ZjgtY2UyMi00YTczLTgyNDEtMjBiMDJlOGUxNjcxXkEyXkFqcGc@._V1_.jpg"}     
+    ], 
+    "tacgia":[
+      {
+        "id":"1", 
+        "ten":"Eiichiro Oda",
+        "hinh":"https://wibu.com.vn/wp-content/uploads/2024/04/Eiichiro-Oda.jpg"
+      },
+      {
+        "id":"2", 
+        "ten":"Gosho Aoyama",
+        "hinh":"https://cdn.popsww.com/blog/sites/2/2023/04/aoyama-gosho.jpg"
+      },
+      {
+        "id":"3", 
+        "ten":"Tsugumi Ohba",
+        "hinh":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3y7ZHqZ6ssUE1FMgiBtpYXmeqV_YMhzLGDg&s"
+      },
+      {
+        "id":"4", 
+        "ten":"Koyoharu Gotouge",
+        "hinh":"https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/2/5/kmss1-16125223517951309982427.jpg"
+      }
+     ]
+    }
+    
+    
+    
+    
